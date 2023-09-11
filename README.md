@@ -14,9 +14,6 @@
 ``Jira``, ``Confluence``, ``qase.io``,``Sitechco``,``SQL``,``Postman``,``Fiddler``,``Swagger``, ``Trello``, <br>
 ``SoapUI``,``Chrome DevTools``,``Mockoon``.
 
-
-
-
 ## Проекты
 
 <p> Проект 1: тест веб-приложения для учителей от Skyeng</p>

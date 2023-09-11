@@ -7,7 +7,7 @@
 <br>
 
 ## Навыки и технологии
-``Jira``, ``Confluence``, ``qase.io``,``Sitechco``,``SQL``,`` Postman``,``Fiddler``, ``Swagger``, ``Trello``, <br>
+``Jira``, ``Confluence``, ``qase.io``,``Sitechco``,``SQL``,`` Postman``,``Fiddler``,``Swagger``, ``Trello``, <br>
 ``SoapUI``,``Chrome DevTools``,``Mockoon``.
 
 

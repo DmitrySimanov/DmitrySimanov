@@ -76,3 +76,4 @@ You can click the Preview link to take a look at your changes.
 ## Контактная информация
 - Email: d.simanov09@gmail.com
 - Telegram: https:/t.me/dmitry_s09
+- [Duck Duck Go](https://duckduckgo.com)

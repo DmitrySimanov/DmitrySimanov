@@ -11,7 +11,7 @@
 Я являюсь ведущим инженером технической поддержки Сбера и у меня есть <em><strong>реальный</strong></em> опыт работы с Jira и Confluence. Обладаю знаниями и опытом работы с SQL, а также опытом тестирования API с помощью Postman и инструментов разработчика в браузере.
 
 ## Навыки и технологии
-``Jira``, ``Confluence``, ``qase.io``,``Sitechco``,``SQL``,`` Postman``,``Fiddler``,``Swagger``, ``Trello``, <br>
+``Jira``, ``Confluence``, ``qase.io``,``Sitechco``,``SQL``,``Postman``,``Fiddler``,``Swagger``, ``Trello``, <br>
 ``SoapUI``,``Chrome DevTools``,``Mockoon``.
 
 

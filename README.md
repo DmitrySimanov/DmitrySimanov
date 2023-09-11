@@ -74,6 +74,5 @@ You can click the Preview link to take a look at your changes.
 
 
 ## Контактная информация
-- Email: name@email.com
-- LinkedIn: https://www.linkedin.com/in/username/
-- Личный сайт: https://www.username.com
+- Email: d.simanov09@gmail.com
+- Telegram: https:/t.me/dmitry_s09

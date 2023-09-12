@@ -1,0 +1,145 @@
+    <!--Сообщение 1-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="0" format="">
+         <!--Zero or more repetitions:-->
+         <spel:text>Превет, я сабака</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+	<!--Результат 1-->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="0" row="0" col="0" len="6">
+                  <word>Превет</word>
+                  <s>Привет</s>
+               </error>
+               <error code="1" pos="10" row="0" col="10" len="6">
+                  <word>сабака</word>
+                  <s>собака</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>
+
+	<!--Сообщение 2-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="512" format="">
+         <!--Zero or more repetitions:-->
+         <spel:text>Проверяет орфаграфию в указанных фрогментах текста. Для каждого фрагмента возвращается отдельный масив ошибок с подсказками.</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+	<!--Результат 2-->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="10" row="0" col="10" len="10">
+                  <word>орфаграфию</word>
+                  <s>орфографию</s>
+               </error>
+               <error code="1" pos="33" row="0" col="33" len="10">
+                  <word>фрогментах</word>
+                  <s>фрагмента</s>
+               </error>
+               <error code="1" pos="97" row="0" col="97" len="5">
+                  <word>масив</word>
+                  <s>массив</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>
+	
+	<!--Сообщение 3-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="2" format="">
+         <!--Zero or more repetitions:-->
+         <spel:text>Мой псевданим на форуме Разрушитель3000</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+	<!--Результат 3-->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="4" row="0" col="4" len="9">
+                  <word>псевданим</word>
+                  <s>псевдоним</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>
+		
+	<!--Сообщение 4-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="0" format="">
+         <!--Zero or more repetitions:-->
+         <spel:text>Если в метадах используются даты, то вам не абойтись никак без скриптов.</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+	<!--Результат 4-->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="7" row="0" col="7" len="7">
+                  <word>метадах</word>
+                  <s>методах</s>
+               </error>
+               <error code="1" pos="44" row="0" col="44" len="8">
+                  <word>абойтись</word>
+                  <s>обойтись</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>
+			
+	<!--Сообщение 5-->
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:spel="http://speller.yandex.net/services/spellservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <spel:CheckTextsRequest lang="ru" options="0" format="">
+         <!--Zero or more repetitions:-->
+         <spel:text>Ниже преводится полный список входных параметров.</spel:text>
+      </spel:CheckTextsRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+	<!--Результат 5-->
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <CheckTextsResponse xmlns="http://speller.yandex.net/services/spellservice">
+         <ArrayOfSpellResult>
+            <SpellResult>
+               <error code="1" pos="5" row="0" col="5" len="10">
+                  <word>преводится</word>
+                  <s>приводится</s>
+               </error>
+            </SpellResult>
+         </ArrayOfSpellResult>
+      </CheckTextsResponse>
+   </soap:Body>
+</soap:Envelope>
